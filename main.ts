@@ -5,8 +5,6 @@ import { create } from "mqtt-usvc";
 import puppeteer from "puppeteer";
 import csv from "csvtojson";
 
-const pkg = JSON.parse(readFileSync("./package.json", "utf8"));
-
 type Config = {
   poll_interval: number;
   jemena_username: string;
@@ -99,7 +97,7 @@ async function main() {
 
 main()
   .then(() => {
-    console.log(`${pkg.name} ${pkg.version} started.`);
+    console.log("jemena-mqtt started.");
   })
   .catch((err) => {
     console.error(err);
