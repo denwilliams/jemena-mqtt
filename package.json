@@ -1,0 +1,23 @@
+{
+  "name": "jemena-mqtt",
+  "version": "1.0.0",
+  "description": "Scrapes usage metrics from Jemena and publishes over MQTT",
+  "main": "index.js",
+  "dependencies": {
+    "csvtojson": "^2.0.10",
+    "mqtt-usvc": "^3.1.0",
+    "prom-client": "^14.2.0",
+    "puppeteer": "^22.14.0"
+  },
+  "scripts": {
+    "dev": "ts-node main.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Den Williams",
+  "license": "MIT",
+  "devDependencies": {
+    "esbuild": "^0.23.0",
+    "postject": "^1.0.0-alpha.6",
+    "ts-node": "^10.9.2"
+  }
+}

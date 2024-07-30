@@ -1,0 +1,7 @@
+mqtt:
+  uri: mqtt://localhost
+  prefix: jemena/
+service:
+  jemena_username: me@example.com
+  jemena_password: secret123
+  poll_interval: 1800000
