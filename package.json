@@ -1,6 +1,6 @@
 {
   "name": "jemena-mqtt",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Scrapes usage metrics from Jemena and publishes over MQTT",
   "main": "index.js",
   "dependencies": {
